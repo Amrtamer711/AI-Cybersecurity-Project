@@ -72,4 +72,5 @@ Run ```dataset_prep.ipynb``` to prepare dataset as this will normalize and prepa
 ### 5. Run all models
 Run all the notebooks labeled by their corresponding model name (eg.: ```Tokenization.ipynb```) and this will perform training and testing for both original and advarsarial examples.
 
-## Report is available for more detailed breakdown of project.
+## Report 
+Report is available at ```AI Cyber Project Report.pdf``` for more detailed breakdown of project.
