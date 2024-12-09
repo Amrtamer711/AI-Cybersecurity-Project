@@ -32,4 +32,5 @@ The following models were implemented and evaluated:
 - K-Nearest Neighbors (KNN)
 - Transformer
 - LSTM
+
 Each model was implemented from scratch or adapted with libraries like PyTorch and scikit-learn, integrating a shared preprocessing pipeline.
