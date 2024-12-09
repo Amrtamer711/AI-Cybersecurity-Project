@@ -61,3 +61,13 @@ Each model was implemented from scratch or adapted with libraries like PyTorch a
 ```bash
 git clone https://github.com/Amrtamer711/AI-Cybersecurity-Project.git
 cd AI-Cybersecurity-Project
+```
+### 2. Optional: Run Tokenization
+Run ```Tokenization.ipynb``` to perform tokenization training
+WARNING: This is optional as it has already been run and the vocabuary has been stored in the ```Tokenizer``` folder. It is advised not to re-run it because it will take a very long time.
+
+### 4. Perform Dataset Preparation 
+Run ```dataset_prep.ipynb``` to prepare dataset as this will normalize and prepare metadata, produce text examples in the form of <URL>{url} <TITLE>{title}, tokenize the examples and create the advarsarial dataset.
+
+### 5. Run all models
+Run all the notebooks labeled by their corresponding model name (eg.: ```Tokenization.ipynb```) and this will perform training and testing for both original and advarsarial examples.
