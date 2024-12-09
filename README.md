@@ -58,6 +58,6 @@ Each model was implemented from scratch or adapted with libraries like PyTorch a
 
 ## How to Run
 ### 1. Clone the Repository
-```python
+```bash
 git clone https://github.com/Amrtamer711/AI-Cybersecurity-Project.git
 cd AI-Cybersecurity-Project
