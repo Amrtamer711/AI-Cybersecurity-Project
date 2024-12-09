@@ -22,3 +22,14 @@ The dataset consists of URLs labeled as phishing or legitimate.
 - Generated attention masks.
 ### 3. Splitting:
 - Stratified splitting into training, validation, and testing datasets.
+
+## Models
+The following models were implemented and evaluated:
+
+- Logistic Regression
+- Multi-Layer Perceptron (MLP)
+- XGBoost
+- K-Nearest Neighbors (KNN)
+- Transformer
+- LSTM
+Each model was implemented from scratch or adapted with libraries like PyTorch and scikit-learn, integrating a shared preprocessing pipeline.
