@@ -15,10 +15,10 @@ The dataset consists of URLs labeled as phishing or legitimate.
 - URLs (tokenized and preprocessed).
 - Metadata: Numerical features provided in the dataset.
 - Labels: Binary classification target (phishing or legitimate).
-### 2.Dataset Preparation:
+### 2.  Dataset Preparation:
 - Preprocessing:
 - Normalized metadata.
 - Tokenized URL strings.
 - Generated attention masks.
-### 3.Splitting:
+### 3. Splitting:
 - Stratified splitting into training, validation, and testing datasets.
