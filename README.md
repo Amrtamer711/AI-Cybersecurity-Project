@@ -19,6 +19,6 @@ The dataset consists of URLs labeled as phishing or legitimate.
 - Preprocessing:
 - Normalized metadata.
 - Tokenized URL strings.
-= Generated attention masks.
+- Generated attention masks.
 ### 3.Splitting:
 - Stratified splitting into training, validation, and testing datasets.
