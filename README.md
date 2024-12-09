@@ -55,3 +55,9 @@ Each model was implemented from scratch or adapted with libraries like PyTorch a
 - Deep learning models (Transformer, LSTM) showed high performance and resilience to adversarial attacks.
 - Simple models like Logistic Regression and KNN struggled under adversarial conditions.
 - Adversarial testing highlights the importance of robustness in cybersecurity applications.
+
+## How to Run
+### 1. Clone the Repository
+```python
+git clone https://github.com/Amrtamer711/AI-Cybersecurity-Project.git
+cd AI-Cybersecurity-Project
