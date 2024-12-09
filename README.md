@@ -36,11 +36,11 @@ The following models were implemented and evaluated:
 Each model was implemented from scratch or adapted with libraries like PyTorch and scikit-learn, integrating a shared preprocessing pipeline.
 
 ## Methodology
-## 1. Tokenization:
+### 1. Tokenization:
 
 - URLs were tokenized using a custom tokenizer, mapping characters to indices.
 - Metadata was normalized and converted into tensors.
-## 2. Model Training:
+### 2. Model Training:
 
 - Models were trained using a PyTorch-based custom pipeline.
 - Hyperparameter optimization was performed using Optuna for models like Transformer and MLP.
@@ -50,6 +50,6 @@ Each model was implemented from scratch or adapted with libraries like PyTorch a
 - Robustness was assessed through adversarial testing with similar character replacements, casing and symbol addition and random Unicode character replacement.
 
 ## Observations
-Deep learning models (Transformer, LSTM) showed high performance and resilience to adversarial attacks.
-Simple models like Logistic Regression and KNN struggled under adversarial conditions.
-Adversarial testing highlights the importance of robustness in cybersecurity applications.
+- Deep learning models (Transformer, LSTM) showed high performance and resilience to adversarial attacks.
+- Simple models like Logistic Regression and KNN struggled under adversarial conditions.
+- Adversarial testing highlights the importance of robustness in cybersecurity applications.
