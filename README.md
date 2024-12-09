@@ -1,5 +1,5 @@
 # AI-Cybersecurity-Project
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/e1db3cf5-c66c-465d-a4c3-58f951e00ecd)
 
 This project focuses on building a robust classification pipeline for analyzing URLs and their corresponding titles to identify potential phishing attempts. The project employs various machine learning and deep learning models, integrates metadata, and explores adversarial robustness to enhance detection accuracy.
 
