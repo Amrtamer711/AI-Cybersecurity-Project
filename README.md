@@ -34,3 +34,20 @@ The following models were implemented and evaluated:
 - LSTM
 
 Each model was implemented from scratch or adapted with libraries like PyTorch and scikit-learn, integrating a shared preprocessing pipeline.
+
+## Methodology
+## 1. Tokenization:
+
+- URLs were tokenized using a custom tokenizer, mapping characters to indices.
+- Metadata was normalized and converted into tensors.
+## 2. Model Training:
+
+- Models were trained using a PyTorch-based custom pipeline.
+- Hyperparameter optimization was performed using Optuna for models like Transformer and MLP.
+## Evaluation:
+
+- Models were tested on a held-out test set.
+- Robustness was assessed through adversarial testing with:
+-- Similar character replacements.
+-- Casing and symbol addition.
+-- Random Unicode character injections.
