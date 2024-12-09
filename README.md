@@ -47,7 +47,4 @@ Each model was implemented from scratch or adapted with libraries like PyTorch a
 ## Evaluation:
 
 - Models were tested on a held-out test set.
-- Robustness was assessed through adversarial testing with:
--- Similar character replacements.
--- Casing and symbol addition.
--- Random Unicode character injections.
+- Robustness was assessed through adversarial testing with similar character replacements, casing and symbol addition and random Unicode character replacement.
